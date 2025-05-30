@@ -1,0 +1,43 @@
+{
+    "programmingLanguages": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "HTML/CSS",
+        "C/C++",
+        "Swift",
+        "OCaml",
+        "SQL"
+    ],
+    "frameworks": [
+        "React",
+        "Next",
+        "Express",
+        "Svelte",
+        "Flask",
+        "Tailwind CSS",
+        "Cypress"
+    ],
+    "technologies": [
+        "AWS",
+        "MongoDB",
+        "REST APIs"
+    ],
+    "tools": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "Podman",
+        "Visual Studio Code",
+        "IntelliJ",
+        "Xcode",
+        "Postman",
+        "Vela",
+        "Microsoft Office"
+    ],
+    "spokenLanguages": [
+        "English",
+        "Italian",
+        "Spanish"
+    ]
+}

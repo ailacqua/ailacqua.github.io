@@ -1,0 +1,26 @@
+[
+    {
+        "university": "Cornell University",
+        "location": "Ithaca, NY",
+        "degree": "Bachelor of Arts",
+        "major": "Computer Science",
+        "minor": "Atmospheric Sciences",
+        "courses": [
+            "Object-Oriented Programming & Data Structures",
+            "Algorithms",
+            "Machine Learning",
+            "Systems Programming",
+            "Computer System Organization and Programming",
+            "Practicum in Operating Systems",
+            "Fuctional Programming",
+            "Intro to iOS Development",
+            "Intro to CS in Python",
+            "Linear Algebra",
+            "Statistics and Probability"
+        ],
+        "honors": [
+            "SEG/Denver Geophysical Society Scholarship Recipient",
+            "NIAF Scholarship Recipient"
+        ]
+    }
+]

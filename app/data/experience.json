@@ -1,0 +1,57 @@
+[
+    {
+        "position": "Software Engineering Intern",
+        "employer": "Cargill",
+        "employerLink": "https://www.cargill.com/",
+        "location": "Atlanta, GA",
+        "dates": "May 2025 - Present",
+        "items": [
+            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
+            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+        ]
+    },
+    {
+        "position": "Autopilot Subteam Lead and Developer",
+        "employer": "Cornell University Unmanned Air Systems",
+        "employerLink": "https://cuair.org/",
+        "location": "Ithaca, NY",
+        "dates": "Oct. 2023 - Present",
+        "items": [
+            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
+            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+        ]
+    },
+    {
+        "position": "Undergraduate Teaching Assistant",
+        "employer": "Cornell Bowers CIS, CS 2110: OOP & Data Structures",
+        "employerLink": "https://cis.cornell.edu/",
+        "location": "Ithaca, NY",
+        "dates": "Aug. 2024 - Present",
+        "items": [
+            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
+            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+        ]
+    },
+    {
+        "position": "Radar Software Engineer Intern",
+        "employer": "Hypermeteo",
+        "employerLink" : "https://www.hypermeteo.com/en/",
+        "location": "Remote",
+        "dates": "Jul. 2024 - Oct. 2024",
+        "items": [
+            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
+            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+        ]
+    },
+    {
+        "position": "Asset Management Intern",
+        "employer": "Metropolitan Airports Commission",
+        "employerLink": "https://metroairports.org/",
+        "location": "Minneapolis, MN",
+        "dates": "Jul. 2024 - Aug. 2024",
+        "items": [
+            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
+            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+        ]
+    }
+]
