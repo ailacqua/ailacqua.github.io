@@ -31,38 +31,51 @@ export default function Experience() {
 
   return (
     <div className="flex flex-col min-h-screen">
-    <div className="flex-grow bg-slate-900 dark:bg-foreground text-foreground dark:text-background">
-      <Header currentSection={currentSection} />
+      <div className="flex-grow bg-slate-900 dark:bg-foreground text-foreground dark:text-background">
+        <Header currentSection={currentSection} />
 
-      <h1
-        className="font-bold font-poppins text-gray-100 text-3xl text-center my-6"
-        data-title="EDUCATION"
-      >
-        EDUCATION
-      </h1>
-      {educationData.map((edu, idx) => (
-        <EducationTile key={idx} {...edu} />
-      ))}
+        <h1
+          className="font-bold font-poppins text-gray-100 text-3xl text-center my-6"
+          data-title="EDUCATION"
+        >
+          EDUCATION
+        </h1>
+        {educationData.map((edu, idx) => (
+          <EducationTile key={idx} {...edu} />
+        ))}
 
-      <h1
-        className="font-bold font-poppins text-gray-100 text-3xl text-center my-6"
-        data-title="TECHNICAL EXPERIENCE"
-      >
-        TECHNICAL EXPERIENCE
-      </h1>
-      {experienceData.map((exp, idx) => (
-        <ExperienceTile key={idx} {...exp} />
-      ))}
+        <h1
+          className="font-bold font-poppins text-gray-100 text-3xl text-center my-6"
+          data-title="TECHNICAL EXPERIENCE"
+        >
+          TECHNICAL EXPERIENCE
+        </h1>
+        {experienceData.map((exp, idx) => (
+          <ExperienceTile key={idx} {...exp} />
+        ))}
 
-      <h1
-        className="font-bold font-poppins text-3xl text-gray-100 text-center my-6"
-        data-title="TECHNICAL SKILLS"
-      >
-        TECHNICAL SKILLS
-      </h1>
-      <SkillsTile {...skillsData} />
-    </div>
-    <Footer />
+        <h1
+          className="font-bold font-poppins text-3xl text-gray-100 text-center my-6"
+          data-title="TECHNICAL SKILLS"
+        >
+          TECHNICAL SKILLS
+        </h1>
+        <SkillsTile {...skillsData} />
+
+        <a
+          href="/criticalthinking.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1
+            className="font-bold font-poppins text-3xl text-gray-100 text-center my-6 hover:text-slate-400"
+            data-title="TECHNICAL SKILLS"
+          >VIEW RESUME AS PDF</h1>
+        </a>
+
+
+      </div>
+      <Footer />
     </div>
   );
 }

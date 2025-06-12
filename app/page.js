@@ -2,7 +2,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import aboutData from "./data/about.json";
 import { Nunito } from "next/font/google";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt, FaFile } from "react-icons/fa";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -25,14 +25,6 @@ export default function Home() {
 
         <div className="flex font-nunito font-semibold space-x-4 mt-4 flex-wrap justify-center">
           <a
-            href="mailto:YOUR_EMAIL@example.com"
-            className="flex items-center space-x-2 bg-white text-black px-4 py-2 rounded-full hover:scale-110 transition transform"
-          >
-            <FaEnvelope />
-            <span>Email</span>
-          </a>
-
-          <a
             href="https://linkedin.com/in/ailacqua"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,6 +32,16 @@ export default function Home() {
           >
             <FaLinkedin />
             <span>LinkedIn</span>
+          </a>
+
+          <a
+            href="/criticalthinking.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 bg-white text-black px-4 py-2 rounded-full hover:scale-110 transition transform"
+          >
+            <FaFileAlt />
+            <span>Resume</span>
           </a>
 
           <a
@@ -51,6 +53,8 @@ export default function Home() {
             <FaGithub />
             <span>GitHub</span>
           </a>
+
+          
         </div>
       </main>
       <Footer />
