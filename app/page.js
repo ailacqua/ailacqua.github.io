@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center p-8 space-y-8 min-h-screen">
         <img
-          src="/AlexanderIlacqua.png"
+          src="/images/alex.png"
           alt="Profile photo"
           className="w-48 h-48 my-2 object-cover rounded-full border-4 border-white shadow-lg"
         />

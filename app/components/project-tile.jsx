@@ -12,7 +12,11 @@ import {
   SiHtml5,
   SiCss3,
   SiTailwindcss,
-  // add more icons as needed
+  SiGit,
+  SiSvelte,
+  SiDocker,
+  SiOcaml,
+  SiSwift
 } from "react-icons/si";
 
 const techIconMap = {
@@ -27,7 +31,11 @@ const techIconMap = {
   Flask: SiFlask,
   Express: SiExpress,
   TypeScript: SiTypescript,
-  // add more mappings here as needed
+  Git: SiGit,
+  Svelte: SiSvelte,
+  Docker: SiDocker,
+  OCaml: SiOcaml,
+  Swift: SiSwift
 };
 
 const ProjectTile = ({
@@ -37,23 +45,24 @@ const ProjectTile = ({
   demo,
   technologies = [],
   image,
+  imagePosition = "center"
 }) => {
   return (
-    <div className="font-poppins bg-slate-300 shadow-md rounded-xl my-6 w-full max-w-4xl mx-auto flex overflow-hidden">
+    <div className="font-poppins bg-slate-300 shadow-md rounded-xl w-full max-w-4xl mx-auto flex overflow-hidden">
       
-      <div className="flex flex-col flex-1 p-8">
-        <h3 className="text-2xl font-bold mb-2">{title}</h3>
-        <p className="mb-4">{blurb}</p>
+      <div className="flex flex-col flex-1 p-4">
+        <h3 className="text-xl font-bold mb-2">{title}</h3>
+        <p className="text-sm mb-4">{blurb}</p>
 
-        <div className="mb-6 flex items-center space-x-3">
-          <span className="font-semibold">Made with:</span>
+        <div className="mb-4 flex items-center space-x-3">
+          <span className="font-semibold text-sm">Made with:</span>
           {technologies.map((tech) => {
             const Icon = techIconMap[tech];
             return Icon ? (
               <Icon
                 key={tech}
                 title={tech}
-                className="text-xl text-gray-700 hover:scale-110 transition-transform"
+                className="text-base text-gray-700 hover:scale-110 transition-transform"
                 aria-label={tech}
               />
             ) : (
@@ -68,7 +77,7 @@ const ProjectTile = ({
           })}
         </div>
 
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 text-sm">
           {github && (
             <a
               href={github}
@@ -95,11 +104,11 @@ const ProjectTile = ({
       </div>
 
       {image && (
-        <div className="w-1/2 h-auto">
+        <div className="w-1/2 relative overflow-hidden rounded-r-xl">
           <img
-            src={image}
+            src={"images/" + image}
             alt={`${title} screenshot`}
-            className="w-full h-full object-cover rounded-r-xl"
+            className={`absolute inset-0 w-full h-full object-cover object-${imagePosition}`}
           />
         </div>
       )}

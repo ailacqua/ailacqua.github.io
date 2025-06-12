@@ -1,26 +1,57 @@
 [
     {
-        "title" : "Personal Site",
-        "blurb": "This project was for this particular purpose.",
-        "github": "google.com",
-        "demo": "google.com",
+        "title" : "CUAir GCS",
+        "blurb": "Building out functionality to refine path planning algorithms, waypoint generation techniques, and facilitate autonomous takeoff and landing.",
+        "github": "https://github.com/CUAir",
         "technologies": [
-            "Nextjs",
-            "Reactjs",
-            "TailwindCSS"
+            "Svelte",
+            "Python",
+            "JavaScript",
+            "Flask",
+            "Docker",
+            "Git"
         ],
-        "image" : "hurricane.png"
+        "image" : "cuairgcs.png",
+        "imagePosition" : "left" 
     },
     {
-        "title" : "Personal Site",
-        "blurb": "This project was for this particular purpose.",
-        "github": "google.com",
-        "demo": "google.com",
+        "title" : "Write on time!",
+        "blurb": "Networked rendition of JKLM.fun's BombParty. Contestants compete to type a word with a given prefix within time before the bomb goes off.",
+        "github": "https://github.com/ailacqua",
+        "demo" : "https://www.youtube.com/watch?v=q0wFIcOrAfI",
+        "technologies": [
+            "OCaml",
+            "Git"
+        ],
+        "image" : "writeontime.png",
+        "imagePosition" : "center"
+    },
+    {
+        "title" : "FoundIt!",
+        "blurb": "Lost and found application developed for 2023 Cornell AppDev Hackathon to reunite students with their misplaced belongings and enable crowdsourcing.",
+        "github": "https://github.com/ailacqua/found",
+        "demo" : "https://youtu.be/HmQ15wz_YI8",
+        "technologies": [
+            "Swift",
+            "Python",
+            "Flask",
+            "Git"
+        ],
+        "image" : "foundit.png",
+        "imagePosition" : "top" 
+    },
+    {
+        "title" : "Portfolio (you're here!)",
+        "blurb": "A small project where I share my work, introduce myself, and document things I'm learning along the way. It's a space to grow and explore new ideas.",
+        "github": "https://github.com/ailacqua/ailacqua.github.io",
         "technologies": [
             "Nextjs",
             "Reactjs",
-            "TailwindCSS"
+            "TailwindCSS",
+            "JavaScript",
+            "Git"
         ],
-        "image" : "hurricane.png"
+        "image" : "personalsite.png",
+        "imagePosition" : "center" 
     }
 ]
