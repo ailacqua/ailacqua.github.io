@@ -16,7 +16,7 @@ const ExperienceTile = ({
       <h2 className="font-semibold">{dates}</h2>
     </div>
     <div className="flex justify-between">
-    <a className="text-gray-700 dark:text-gray-300 font-semibold" href={employerLink}>{employer}</a>
+    <a className="text-gray-700 dark:text-gray-300 font-semibold hover:scale-105" href={employerLink}>{employer}</a>
     <p className="italic font-semibold">{location}</p>
     </div>
     <ul className="font-medium text-sm list-disc list-inside pl-2 text-gray-700 dark:text-gray-300">

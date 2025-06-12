@@ -41,12 +41,10 @@ const ProjectTile = ({
   return (
     <div className="font-poppins bg-slate-300 shadow-md rounded-xl my-6 w-full max-w-4xl mx-auto flex overflow-hidden">
       
-      {/* Left Side: Content */}
       <div className="flex flex-col flex-1 p-8">
         <h3 className="text-2xl font-bold mb-2">{title}</h3>
         <p className="mb-4">{blurb}</p>
 
-        {/* Made with: Label and icons inline */}
         <div className="mb-6 flex items-center space-x-3">
           <span className="font-semibold">Made with:</span>
           {technologies.map((tech) => {
@@ -70,7 +68,6 @@ const ProjectTile = ({
           })}
         </div>
 
-        {/* Conditional buttons */}
         <div className="flex space-x-4">
           {github && (
             <a
@@ -97,7 +94,6 @@ const ProjectTile = ({
         </div>
       </div>
 
-      {/* Right Side: Image */}
       {image && (
         <div className="w-1/2 h-auto">
           <img
