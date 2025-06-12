@@ -1,0 +1,26 @@
+[
+    {
+        "title" : "Personal Site",
+        "blurb": "This project was for this particular yadda yadda yadda.",
+        "github": "google.com",
+        "demo": "google.com",
+        "technologies": [
+            "Nextjs",
+            "Reactjs",
+            "TailwindCSS"
+        ],
+        "image" : "hurricane.png"
+    },
+    {
+        "title" : "Personal Site",
+        "blurb": "This project was for this particular yadda yadda yadda.",
+        "github": "google.com",
+        "demo": "google.com",
+        "technologies": [
+            "Nextjs",
+            "Reactjs",
+            "TailwindCSS"
+        ],
+        "image" : "hurricane.png"
+    }
+]
