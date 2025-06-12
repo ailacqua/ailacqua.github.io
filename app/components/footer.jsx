@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-6 flex flex-col items-center space-y-3">
+    <footer className="bg-slate-900 text-gray-300 py-6 flex flex-col items-center space-y-3">
       <div className="flex space-x-6 text-2xl">
         <a
           href="https://github.com/ailacqua"

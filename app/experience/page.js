@@ -31,11 +31,11 @@ export default function Experience() {
 
   return (
     <div className="flex flex-col min-h-screen">
-    <div className="flex-grow bg-gray-100 dark:bg-foreground text-foreground dark:text-background">
+    <div className="flex-grow bg-slate-900 dark:bg-foreground text-foreground dark:text-background">
       <Header currentSection={currentSection} />
 
       <h1
-        className="font-bold font-poppins text-3xl text-center my-6"
+        className="font-bold font-poppins text-gray-100 text-3xl text-center my-6"
         data-title="EDUCATION"
       >
         EDUCATION
@@ -45,7 +45,7 @@ export default function Experience() {
       ))}
 
       <h1
-        className="font-bold font-poppins text-3xl text-center my-6"
+        className="font-bold font-poppins text-gray-100 text-3xl text-center my-6"
         data-title="TECHNICAL EXPERIENCE"
       >
         TECHNICAL EXPERIENCE
@@ -55,7 +55,7 @@ export default function Experience() {
       ))}
 
       <h1
-        className="font-bold font-poppins text-3xl text-center my-6"
+        className="font-bold font-poppins text-3xl text-gray-100 text-center my-6"
         data-title="TECHNICAL SKILLS"
       >
         TECHNICAL SKILLS

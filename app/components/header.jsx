@@ -54,7 +54,7 @@ const Header = () => {
 
   return (
     <header
-      className="sticky top-0 z-50 bg-gray-100 px-4"
+      className="sticky top-0 z-50 bg-gray-100 mx-4"
       style={{
         height: showFullHeader ? FULL_HEADER_HEIGHT : COLLAPSED_HEADER_HEIGHT,
         transition: "height 0.3s ease",
