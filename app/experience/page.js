@@ -63,7 +63,7 @@ export default function Experience() {
         <SkillsTile {...skillsData} />
 
         <a
-          href="/criticalthinking.pdf"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >

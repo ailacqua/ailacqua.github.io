@@ -35,7 +35,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/criticalthinking.pdf"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 bg-white text-black px-4 py-2 rounded-full hover:scale-110 transition transform"
