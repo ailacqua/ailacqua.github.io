@@ -16,13 +16,14 @@ const SkillsList = ({heading, group}) => (
     </h2>
 )
 
-const SkillsTile = ({ programmingLanguages, frameworks, technologies, tools, spokenLanguages }) => (
+const SkillsTile = ({ programmingLanguages, frameworks, technologies, tools, spokenLanguages, certifications }) => (
   <div className="font-nunito text-sm bg-slate-300 dark:bg-gray-800 shadow-md rounded-xl px-8 py-6 my-6 w-full max-w-3xl mx-auto">
     <SkillsList heading="Programming Languages:" group={programmingLanguages} />
     <SkillsList heading="Frameworks:" group={frameworks} />
     <SkillsList heading="Technologies:" group={technologies} />
     <SkillsList heading="Tools:" group={tools} />
     <SkillsList heading="Spoken Languages:" group={spokenLanguages} />
+    <SkillsList heading="Certifications:" group={certifications} />
   </div>
 );
 

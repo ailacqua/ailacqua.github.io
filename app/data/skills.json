@@ -39,5 +39,10 @@
         "English",
         "Italian",
         "Spanish"
+    ],
+    "certifications": [
+        "Amateur Radio Technician Class License",
+        "FAA Recreational UAS Safety Test (TRUST) Certificate",
+        "Advanced SKYWARN Storm Spotter"
     ]
 }
