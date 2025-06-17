@@ -21,7 +21,8 @@
     "technologies": [
         "AWS",
         "MongoDB",
-        "REST APIs"
+        "REST APIs",
+        "Cypress"
     ],
     "tools": [
         "Git",
