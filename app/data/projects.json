@@ -40,6 +40,18 @@
         "image" : "foundit.png",
         "imagePosition" : "top" 
     },
+
+    {
+        "title" : "Golf Manager",
+        "blurb": "Golf management application developed for senior stakeholders to handle registration, assign tee times based on user preferences, and manage scoring",
+        "github": "https://github.com/ailacqua/GolfManagerApp",
+        "technologies": [
+            "Java",
+            "MySQL"
+        ],
+        "image" : "golfmanager.jpg",
+        "imagePosition" : "center" 
+    },
     {
         "title" : "Portfolio (you're here!)",
         "blurb": "A small project where I share my work, introduce myself, and document things I'm learning along the way. It's a space to grow and explore new ideas.",

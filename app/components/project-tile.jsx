@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaVideo } from "react-icons/fa";
+import { FaGithub, FaVideo, FaJava } from "react-icons/fa";
 import {
   SiReact,
   SiJavascript,
@@ -16,7 +16,8 @@ import {
   SiSvelte,
   SiDocker,
   SiOcaml,
-  SiSwift
+  SiSwift,
+  SiMysql
 } from "react-icons/si";
 
 const techIconMap = {
@@ -35,7 +36,9 @@ const techIconMap = {
   Svelte: SiSvelte,
   Docker: SiDocker,
   OCaml: SiOcaml,
-  Swift: SiSwift
+  Swift: SiSwift,
+  MySQL: SiMysql,
+  Java: FaJava
 };
 
 const ProjectTile = ({
