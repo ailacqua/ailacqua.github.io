@@ -19,10 +19,11 @@
         "Cypress"
     ],
     "technologies": [
+        "Docker",
+        "Podman",
         "AWS",
         "MongoDB",
-        "REST APIs",
-        "Cypress"
+        "REST APIs"
     ],
     "tools": [
         "Git",
@@ -34,6 +35,7 @@
         "Xcode",
         "Postman",
         "Vela",
+        "GitHub Actions",
         "Microsoft Office"
     ],
     "spokenLanguages": [
@@ -42,8 +44,8 @@
         "Spanish"
     ],
     "certifications": [
+        "FAA Part 107 Licensed Remote Pilot",
         "Amateur Radio Technician Class License",
-        "FAA Recreational UAS Safety Test (TRUST) Certificate",
         "Advanced SKYWARN Storm Spotter"
     ]
 }

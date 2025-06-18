@@ -6,8 +6,8 @@
         "location": "Atlanta, GA",
         "dates": "May 2025 - Present",
         "items": [
-            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
-            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+            "Strengthening reliability of a protein availability platform by integrating over 1000 test cases into a Vela-powered CI/CD reducing QA timelines by 88%",
+            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and minimizing manual QA effort"
         ]
     },
     {
@@ -17,8 +17,9 @@
         "location": "Ithaca, NY",
         "dates": "Oct. 2023 - Present",
         "items": [
-            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
-            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+            "Pioneering team-wide agile/scrum adoption, leading a team of 10 members in the development and integration of first custom autonomous flight software in team history, enabling reliable waypoint navigation and remote control for a eVTOL platform",
+            "Spearheaded novel Python-based waypoint uplink and grid search functionality for the ground control system, reducing average mission setup time by 80% through full-stack Svelte and Flask integration via a REST API",
+            "Implemented a custom Python module for aircraft path planning automating takeoff and landing phases of flight, achieving 60% reduction in mission time and leading to 2nd place national ranking at CUASC competition"
         ]
     },
     {
@@ -28,8 +29,8 @@
         "location": "Ithaca, NY",
         "dates": "Aug. 2024 - Present",
         "items": [
-            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
-            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+            "Leading discussion section for 40 students weekly, reinforcing object oriented programming techniques and data structure usage through interactive programming assignments and student engagement",
+            "Bolstering students’ material comprehension during weekly office hours by conveying Java debugging strategies, reviewing material taught in lectures, and providing robust feedback on assignment submissions"
         ]
     },
     {
@@ -39,8 +40,8 @@
         "location": "Remote",
         "dates": "Jul. 2024 - Oct. 2024",
         "items": [
-            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
-            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+            "Developed and deployed automated Python scripts to aggregate radar data from 26 distinct physical sites, employing an AWS EC2 instance and Crontab for scheduled execution to generate meteorological products for 5 Italian clients",
+            "Reduced error in precipitation accumulation calculations by 93% leveraging novel Python nowcasting software pipeline"
         ]
     },
     {
@@ -50,8 +51,9 @@
         "location": "Minneapolis, MN",
         "dates": "Jul. 2024 - Aug. 2024",
         "items": [
-            "Strengthening reliability of a protein availability platform—supporting tracking over XXX inventory items—by integrating automated tests into a Vela-powered CI/CD pipeline on an Agile/Scrum team of 25 engineers",
-            "Developing end-to-end test cases using Cypress for this React and Spring Boot application using the IntelliJ IDE, increasing test coverage and reducing manual QA effort"
+            "Audited over 3300 terminal doors, spaces, and occupants via ArcGIS to maximize $250 million in tenant rental revenue",
+            "Generated over 100 visualizations using Power BI justifying allocation of $60 million equipment CapEx budget based on enhanced life cost cycle analysis; presented findings to senior leadership",
+            "Prepared light-duty fleet electrification feasibility report including over 200 vehicles, identifying appropriate adoption timelines and necessary resources"
         ]
     }
 ]
