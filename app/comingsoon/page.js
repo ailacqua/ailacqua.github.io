@@ -11,7 +11,7 @@ export default function ComingSoon() {
 
       <main className="flex flex-col items-center p-8 space-y-8 min-h-screen">
         <h1
-            className="font-bold font-poppins text-3xl text-gray-100 text-center my-6 hover:text-slate-400"
+            className="font-bold font-poppins text-3xl text-gray-100 text-center my-6"
             data-title="TECHNICAL SKILLS"
           >PAGE COMING SOON!</h1>
       </main>
