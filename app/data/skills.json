@@ -28,8 +28,6 @@
     "tools": [
         "Git",
         "GitHub",
-        "Docker",
-        "Podman",
         "Visual Studio Code",
         "IntelliJ",
         "Xcode",
